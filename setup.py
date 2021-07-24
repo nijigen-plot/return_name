@@ -7,7 +7,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points={
         'console_scripts':[
-            'return = returnname.return:call'
+            'return = returnname.returnname:call'
         ]
     }
 )
